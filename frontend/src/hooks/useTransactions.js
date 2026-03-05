@@ -1,7 +1,7 @@
 // Custom hook — handles all API calls to Flask backend
 import { useState, useEffect } from "react";
 
-const API = "http://localhost:5000";
+const API = "https://expense-tracker-with-ai-insights-zsft.onrender.com";
 
 export default function useTransactions() {
   const [transactions, setTransactions] = useState([]);
