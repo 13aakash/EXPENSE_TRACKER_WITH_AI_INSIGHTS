@@ -4,7 +4,7 @@ import anthropic
 import os
 
 app = Flask(__name__)
-CORS(app, origins=["https://expense-tracker-with-ai-insights-seven.vercel.app", "http://localhost:3000"])
+CORS(app, origins=["https://expense-tracker-with-ai-insights-w9.vercel.app", "http://localhost:3000"])
 
 client = anthropic.Anthropic(api_key=os.environ.get("ANTHROPIC_API_KEY"))
 
